@@ -23,5 +23,4 @@ class ${NAME} : BaseFragment<${ViewModelClass} , ${BindingLayout}>() {
         val viewModel: ${ViewModelClass} by viewModels()
         baseViewModel = viewModel
     }
-
 }
