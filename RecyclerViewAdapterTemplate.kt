@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 #parse("File Header.java")
-class ${AdapterName} : RecyclerView.Adapter<${AdapterName}.${VIEWHOLDER_CLASS}>(){
+class ${NAME} : RecyclerView.Adapter<${NAME}.${VIEWHOLDER_CLASS}>(){
     
     var myList: List<${ITEM_CLASS}> = ArrayList()
     private var parent: ViewGroup? = null
